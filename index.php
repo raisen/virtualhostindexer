@@ -88,29 +88,10 @@ foreach($config_files as $file){
 }
 ?>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-<style>
-	.vhost {
-	}
-	.vhost .name {
-		width: 200px;
-		float: left;
-	}
-	.vhost .address {
-		width: 200px;
-		float: left;
-	}
-	.vhost .folder {
-		width: 200px;
-		float: left;
-	}
-	.clear {
-		clear: both;
-	}
-	.vhost {
-		border: 1px solid black;
-	}
-</style>
 <?php foreach($vhosts as $vhost):?>
 	<div class='vhost'>
 		<?php $address = $vhost['ip'].':'.$vhost['port'];?>

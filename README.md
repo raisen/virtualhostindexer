@@ -18,4 +18,4 @@ Be sure that the include path is properly set.
 USAGE
 -----
 
-Place `index.php` under a path acccessible by Apache.
+Place `index.php` and `style.css` under a path acccessible by Apache.
