@@ -1,0 +1,20 @@
+.vhost {
+}
+.vhost .name {
+	width: 200px;
+	float: left;
+}
+.vhost .address {
+	width: 200px;
+	float: left;
+}
+.vhost .folder {
+	width: 200px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.vhost {
+	border: 1px solid black;
+}
